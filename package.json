@@ -1,5 +1,5 @@
 {
-  "name": "es6-meta-programming",
+  "name": "js-scratch",
   "version": "1.0.0",
   "description": "I find the Mozilla Dev Network guide to Javascript awesome, in particular the [meta programming page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Meta_programming). This is just me writing some tests to show these concepts in action for my own learning purposes.",
   "main": "proxies.js",
@@ -13,8 +13,8 @@
     "eslint": "^3.3.1"
   },
   "scripts": {
-    "lint": "eslint --fix *.js",
-    "test": "mocha --compilers js:babel-core/register *.js"
+    "lint": "eslint --fix **/*.js",
+    "test": "mocha --compilers js:babel-core/register **/*.js"
   },
   "author": "Chris James",
   "license": "ISC"
